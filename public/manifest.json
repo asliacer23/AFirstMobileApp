@@ -3,14 +3,37 @@
   "short_name": "Bestlink IT",
   "description": "Educational app for computer-related courses",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#2563eb",
+  "categories": ["education"],
+  "screenshots": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    }
+  ],
   "icons": [
     {
       "src": "/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/x-icon",
+      "purpose": "maskable"
     }
   ]
 }
